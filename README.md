@@ -1,13 +1,15 @@
-# chatgpt-api-whisper-api-voice-assistant
-chatgpt api and whisper api tutorial - voice conversation with therapist
-
-Video Demo / Tutorial:
-
-https://www.youtube.com/watch?v=Si0vFx_dJ5Y
+# Voice Podcast Intern
+An AI Voice Intern for the Data Lounge Podcast.
 
 ## Setup
-
 Install `ffmpeg` with:
 ```
 brew install ffmpeg
+```
+Create a .env file, add the following variable: "OPENAI_API_KEY" and configure a Pycharm runtime configuration which 
+is linked to the file.
+
+Or run the following command before running the intern.py script
+```
+export OPENAI_API_KEY=<your-api-key>
 ```
